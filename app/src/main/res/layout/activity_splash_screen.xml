@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSplashScreen"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_splash_screen_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:gravity="center"
+            android:text="PAGASA Weather App"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/_24ssp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_24sdp"
+            android:gravity="end"
+            android:layout_marginRight="23dp"
+            android:text="by Antonio Ones"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="end"
+        android:layout_gravity="bottom|end"
+        android:text="Powered by openweathermap.org"
+        android:textColor="@color/color_ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
